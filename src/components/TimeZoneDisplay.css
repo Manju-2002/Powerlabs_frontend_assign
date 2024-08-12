@@ -1,0 +1,21 @@
+.timezone-display {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .timezone-display p {
+    margin: 0;
+  }
+  
+  .timezone-display button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  

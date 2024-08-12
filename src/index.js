@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ErrorBoundary from './ErrorBoundary'; // Import the ErrorBoundary
+import './App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ErrorBoundary> {/* Wrap the App component with ErrorBoundary */}
+      <App />
+    </ErrorBoundary>
   </React.StrictMode>
 );
 

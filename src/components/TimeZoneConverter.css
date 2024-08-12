@@ -1,0 +1,67 @@
+/* src/components/TimeZoneConverter.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-timezone, .slider-component, .timezone-display {
+    margin-bottom: 20px;
+  }
+  
+  .add-timezone select {
+    margin-right: 10px;
+  }
+  
+  .draggable-item {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .container {
+    background-color: #3e3e3e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dark-mode .draggable-item {
+    background-color: #505050;
+    border: 1px solid #777;
+  }
+  
+  .dark-mode button {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .dark-mode button:hover {
+    background-color: #222;
+  }
+  
